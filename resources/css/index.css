@@ -1,0 +1,149 @@
+.centralnavbar {
+    position: fixed;
+    top: 5px;
+    width: 99%;
+    background-color: #BC8A4F;
+    text-align:justify;
+    text-indent: 90px;
+}
+
+.centralnavbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.centralnavbar a {
+    text-decoration: none;
+    color:black;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+a.red{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+#cart-icon {
+    height: 70px;
+    width: 70px;
+}
+
+#bunbunbakeshop{
+    color:rgb(214, 32, 32);
+    font-size: 80px;
+}
+
+.covidtab {
+    position: fixed;
+    background-color:#FFE602;
+    color:black;
+    top: 145px; 
+    text-align: center;
+    width: 99%;
+}
+
+.centralbanner{
+    background-color: blanchedalmond;
+    margin-top: 90px;
+    text-align: center;
+    padding: 125px 0;
+    font-size: 30px;
+}
+
+.picture{
+    height: 300px;
+    width: 300px;
+}
+
+.menubanner1{
+    background-color: blanchedalmond;
+    margin-top: 170px;
+    text-align: left;
+    padding-left: 200px;
+    text-align: left;
+}
+
+.menubanner2{
+    background-color: blanchedalmond;
+    margin-top: -420px;
+    text-align: center;
+    padding: 30px;
+}
+
+.menubanner3{
+    background-color: blanchedalmond;
+    margin-top: -630px;
+    text-align: right;
+    padding: 220px;
+}
+
+.menubanner4{
+    background-color: blanchedalmond;
+    margin-top: -200px;
+    text-align: left;
+    padding-left: 200px;
+}
+
+.menubanner5{
+    background-color: blanchedalmond;
+    margin-top: -465px;
+    text-align: center;
+    padding: 80px;
+}
+
+.menubanner6{
+    background-color: blanchedalmond;
+    margin-top: -685px;
+    text-align: right;
+    padding: 220px;
+}
+
+.originalbanner{
+    background-color: blanchedalmond;
+    margin-top: 150px;
+    text-align: left;
+    padding-left: 20%;
+    padding: 125px;
+    font-size: 30px;
+}
+
+.originalbanner2{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-right: 10%;
+    margin-top: -550px;
+    font-size: 20px;
+}
+
+.originalbanner2 li{
+    display: inline-block;
+    padding: 50px;
+}
+
+.originalbanner3{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-right: 10%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.originalbanner3 li{
+    display: inline-block;
+    padding: 50px;
+}
+
+.originalbanner4{
+    background-color: blanchedalmond;
+    text-align: justify;
+    padding-right: 40%;
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.t_center{
+    text-align: center;
+}
+  

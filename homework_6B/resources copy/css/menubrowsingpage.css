@@ -1,0 +1,31 @@
+/* Grid layout for menu listings*/
+.grid-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color: blanchedalmond;
+    padding: 50px 50px;
+    top: 70px;
+    text-align: center;
+  } 
+  .grid-container > div {
+    background-color: #976123;
+    padding: 90px 20px;
+    font-size: 20px;
+  }
+
+/* Styling the grid */  
+  .grid-container a{
+      text-decoration: none;
+      color: black;
+  }
+
+/* Highlighting function when hovering over with cursor */
+  .grid-container a:hover{
+    background-color: rgb(223, 221, 221);
+    padding: 20px 0;
+    color:  rgb(223, 221, 221);
+  }
+
+  

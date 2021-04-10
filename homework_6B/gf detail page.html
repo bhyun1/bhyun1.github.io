@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PUI Assignment 6</title>
+        <link rel="stylesheet" href="./resources copy/css/originaldetail.css">
+        <link rel="stylesheet" href="./resources copy/css/index.css">
+    </head>
+
+    <body>
+        
+        <!--  Central Navigation Bar -->
+        <div class="centralnavbar">
+
+            <!-- Bun Bun Bake Shop Home link (center button)-->
+            <div class="centralnavbar-centered">
+                <a id="bunbunbakeshop1" href="index copy.html"> Bun Bun Bake Shop</a>
+            </div>
+        
+            <!--About and Where link (left buttons)-->
+            <a href="">About</a>
+            <a href="">Where</a>
+
+            <!--Menu and Cart link (right buttons)-->
+            <div class="centralnavbar-right">
+                <a href="menu browsing page copy.html">Menu</a>
+                <a href="cartpage.html"><img id="cart-icon" src="./resources copy/images/cart emoji.png" alt="cart-icon"></a>
+            </div>
+        </div>
+
+        <!-- Content for Original Cinnamon Bun-->
+        <div class="menugrid-container">
+            <!-- Title-->
+            <div class="item1">
+                <h1 style="font-size:500%; text-align: center;"><i>Original(Gluten-free)</i></h1>
+            </div>
+            <!-- Photo of Original Cinnamon Bun-->
+            <div class="item2"> 
+                <img class="picture" src="./resources copy/images/original cinnamonbun.jpeg" alt="origianl cinnamonbun photo">
+            </div>
+            <!-- Quantity-->
+            <div class="item3">
+                <h1>
+                <u>Quantity:</u>
+                </h1>
+            </div>
+            <!--Glazing Choices-->
+            <div class="item4">
+                <h1>
+                <u>Glazing:</u>
+                </h1>
+            </div>
+            <!-- Ingredient listing-->
+            <div class="item5">
+                <h1>Ingredient Content:</h1>
+                    <li>Milk</li>
+                    <li>Gluten Free Flour</li>
+                    <li>Brown Sugar</li>
+                    <li>White sugar</li>
+                    <li>Grounded Cinnamon</li>
+                    <li>Gluten Free Cream Cheese</li>
+                    <li>Vanilla Extract</li> 
+            </div>
+
+             <!-- Cart Listings-->
+             <div class="item6">
+                <h1> CART </h1>
+                </div>
+                <!-- Tab for Showing how many cinnamon buns the customer added to the cart-->
+                <div class="item16">
+                <h1><u>Quantity</u></h1>
+                </div>
+                <!-- showing the image of cinnamon bun selection-->
+                <div class="item17">
+                <img class="image" src="./resources copy/images/original cinnamonbun.jpeg" alt="origianl cinnamonbun photo">
+                </div>
+                <!--Tab for Showing which Galzing type the customer choose-->
+                <div class="item18">
+                <h1><u>Glazing</u>
+                </h1>
+                </div>
+                <!--Multiplication Sign-->
+                <div class="item19">
+                <h1> X </h1>
+                </div>
+                <!--Position for Quantity Listing-->
+                <div class="item20">
+                <h1 id="QT"></h1>
+                </div>
+                <!--Position for Glazing Listing-->
+                <div class="item21">
+                <h1 id="GL"></h1>
+                </div>
+                
+                 <!--Remove Button-->
+                <div class="item22">
+                <input type="removebutton" class="removebutton" onclick="removeFunction1()" value="Remove">
+                </div>
+    
+                <div class="item23">
+                <input type="removebutton" class="removebutton" onclick="removeFunction2()" value="Remove">
+                </div>
+                
+                <!-- Add to Cart Button(linking it to the Cart Page)-->
+                <div class="item7">
+                <a href="./cartpage.html"><input type="cartbutton" class="cartbutton" onclick="alert('You have added your Cinnamon Buns to the Cart')" value="ADD TO CART"></a>
+                </div>
+                
+                <!-- Quantity Buttons-->
+            <div class="item8">
+                <input type="button" class="button" onclick="addquantityFunction()" value="One">
+            </div>
+            <div class="item9">
+                <input type="button" class="button" onclick="addquantityFunction2()" value="Three">
+            </div>
+            <div class="item10">
+                <input type="button" class="button" onclick="addquantityFunction3()" value="Six">
+            </div>
+            <div class="item11">
+                <input type="button" class="button" onclick="addquantityFunction4()" value="Twelve">
+            </div>
+
+            <!-- Glazing Type Buttons-->
+            <form class="item12">
+                <input type="button" class="button" onclick="addglazeFunction()" value="None">
+            </form>
+
+            <div class="item13">
+                <input type="button" class="button" onclick="addglazeFunction2()" value="Milk-Sugar">
+            </div>
+            
+            <div class="item14">
+                <input type="button" class="button" onclick="addglazeFunction3()" value="Vanila-Sugar">
+            </div>
+            <div class="item15">
+                <input type="button" class="button" onclick="addglazeFunction4()" value="Double Chocolate">
+            </div>
+            </div>
+    
+            <script src="./gfdetail page.js">
+            </script>
+        </div>
+    </body>
+</html>

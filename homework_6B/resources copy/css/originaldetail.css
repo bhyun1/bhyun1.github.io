@@ -1,0 +1,118 @@
+/* items on the original detail page */
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: quantity;}
+.item4 { grid-area: glazing; }
+.item5 { grid-area: ingredient; }
+.item6 { grid-area: Cart; }
+.item7 { grid-area: Add; }
+.item8 { grid-area: button1; }
+.item9 { grid-area: button2; }
+.item10 { grid-area: button3; }
+.item11 { grid-area: button4; }
+.item12 { grid-area: button5; }
+.item13 { grid-area: button6; }
+.item14 { grid-area: button7; }
+.item15 { grid-area: button8; }
+.item16 { grid-area: Quantity; }
+.item17 { grid-area: image; }
+.item18 { grid-area: Glazing; }
+.item19 { grid-area: X; }
+.item20 { grid-area: QT; }
+.item21 { grid-area: GL; }
+.item22 { grid-area: REM1; }
+.item23 { grid-area: REM2; }
+
+/* formatiing the item in places*/
+.menugrid-container {
+    display: grid;
+    grid-template-areas:
+        '. header header header header header header header'
+        '. . menu . . . quantity .'
+        '. . menu . button1 button2 button3 button4'
+        '. . menu . . . glazing .'
+        '. . ingredient . button5 button6 button7 button8'
+        '. . ingredient . . . Cart .'
+        '. . Quantity . image X QT REM1'
+        '. . Glazing . . GL . REM2'
+        '. . . . . . . .'
+        '. . . . . . Add Add' ;
+    grid-gap: 10px;
+    background-color:blanchedalmond;
+    padding: 6% 0;
+}
+
+.menugrid-container > div {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    width: 100%;
+}
+
+/* Button Design for Quantity and Glazing Types*/
+.button {
+    background-color: #ce934f;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* Add to Cart Button Design*/
+.cartbutton {
+    background-color: yellow;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 10px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 12px;
+}
+
+.image{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+#QT{
+    background-color: #ce934f;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 40px ;
+}
+
+#GL{
+    background-color: #ce934f;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 40px ;
+}
+
+/* Add to Remove Button Design*/
+.removebutton {
+    background-color:rgb(248, 91, 91);
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 15px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 12px;
+}

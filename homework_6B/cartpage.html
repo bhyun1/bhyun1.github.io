@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PUI Assignment 6</title>
+        <link rel="stylesheet" href="./resources copy/css/cart.css">
+        <link rel="stylesheet" href="./resources copy/css/index.css">
+    </head>
+
+    <body>
+
+        <!--  Central Navigation Bar -->
+        <div class="centralnavbar">
+
+            <!-- Bun Bun Bake Shop Home link (center button)-->
+            <div class="centralnavbar-centered">
+                <a id="bunbunbakeshop1" href="index copy.html"> Bun Bun Bake Shop</a>
+            </div>
+            
+            <!--About and Where link (left buttons)-->
+            <a href="">About</a>
+            <a href="">Where</a>
+
+            <!--Menu and Cart link (right buttons)-->
+            <div class="centralnavbar-right">
+                <a href="menu browsing page copy.html">Menu</a>
+                <a href="cartpage.html"><img id="cart-icon" src="./resources copy/images/cart emoji.png" alt="cart-icon"></a>
+            </div>
+
+        </div>
+        
+        <div class="cartgrid-container">
+
+            <!--Cell #1 "Shopping Cart"-->
+            <div class="cartgrid-item">
+            <h1>
+            <u>Shopping Cart</u>
+            </h1>
+            </div>
+
+            <!--Cell #2 with no Content-->
+            <div class="cartgrid-item">
+            </div>
+
+            <!--Cell #3 "Price"-->
+            <div class="cartgrid-item">
+            <h1>
+            <u>Price</u>
+            </h1>
+            </div>
+
+            <!--Cell #4 "Checkout"-->
+            <div class="cartgrid-item">
+            <h1>
+            <u>Check Out</u>
+            </h1>
+            </div>
+
+            <!--Cell #5 image of Original Cinnamon bun-->
+            <div class="cartgrid-item">
+                <h2 id="bt">
+                </h2>
+            </div>
+
+            <!--Cell # 6 table for cinnamonbun type and the price-->
+            <div class="cartgrid-item">
+                
+                <div class="quantitycartgrid-item">
+                <h2 id="qtgl"></h2>
+                </div>
+            
+            </div>
+
+            <!--Cell #7 total price-->
+            <div class="cartgrid-item">
+                <br>
+                <br>
+                <h2 id="price"> </h2>
+                <br>
+            </div>
+
+            <!--Cell #8 email submit field and agreement box-->
+            <div class="cartgrid-item">
+                <br>
+                <b>Plaese Enter Your Email Address so we can Send you the Receipt & Order Sataus</b>
+                <br>
+                <br>
+                <form class="email-input">
+                    <input type="text"/>
+                    <input type="submit" value="Submit">
+                </form>
+                <br>
+                <input type="checkbox" id="agreement" name="agreement" value="agreed">
+                <label for="agreement">I agree with Terms & Conditions for providing Private Information to BUN BUN BAKE SHOP</label>
+            </div>
+
+            <!--Cell #9 image of image of original Gluten Free cinnamonbun-->
+
+            <div class="cartgrid-item">
+                <h2>
+                </h2>
+            </div>
+
+            <!--cell #10 table for cinnamonbun type and the price-->
+            <div class="cartgrid-item">
+                <div class="cartgrid-item">
+                <div class="quantitycartgrid-item">
+                <h2 id="qtgl2"></h2>
+                </div>
+            </div>  
+            </div>
+
+            <!--cell #11 "total price-->
+            <div class="cartgrid-item">
+                <br>
+                <br>
+                <h2>
+
+                </h2>
+            </div>
+
+            <!--cell #12 button for check out with debit or dredit-->
+            <div class="cartgrid-item">
+            <br>
+            <br>
+            <button class="cardbutton">
+            <h3>Check Out with Credit or Debit Card</h3>
+            </button>
+            </div>
+            
+            <!-- cell #13 image of walnut cinna bun-->
+            <div class="cartgrid-item">
+                
+            </div>
+
+            <!--cell #14 table for cinnamonbun type and the price-->
+            <div class="cartgrid-item">
+                <div class="cartgrid-item">
+                <div class="quantitycartgrid-item">
+                
+                </div>
+            </div>  
+            </div>
+
+            <!--cell #15 total price-->
+            <div class="cartgrid-item">
+            
+            </div>
+            
+            <!--cell #16 payapl and venmo button-->
+            <div class="cartgrid-item">
+                <img src="./resources copy/images/paypal.png" alt="">
+                <img src="./resources copy/images/venmo.png" alt="">
+            </div>
+
+            <!--cell #17 N/A-->
+            <div class="cartgrid-item">
+            </div>
+
+            <!--cell #18 table for subtotal and discount-->
+            <div class="cartgrid-item">
+                <h2>Subtotal: </h2>
+                <h3>Discount for Orders over $10 : </h3>
+                <br>
+                <b2>(10% off) </b2>
+            </div>
+            
+            <!--cell #19 total price - discount price-->
+            <div class="cartgrid-item">
+               
+            </div>
+
+            <!--cell #20 button for "shop more"-->
+            <div class="cartgrid-item">
+            <img src="./resources copy/images/paypal credit.png" alt="">
+            <button class="backbutton">
+            <h3>Want to Select More Buns? Click here to Go Back</h3>
+            </button>
+            </div>
+
+            <!--cell #21 N/A-->
+            <div class="cartgrid-item">
+            </div>
+
+            <!--cell #22 "total"-->
+            <div class="cartgrid-item">
+                <h1>Total: </h1>
+            </div>
+
+            <!--cell #23 total price-->
+            <div class="cartgrid-item">
+                <h1 id="zzzz"> </h1>
+            </div>
+
+            <!--cell #24 N/A-->
+            <div class="cartgrid-item">
+            </div>
+        
+        <script src="./cartpage.js">
+        </script>
+        
+    </body>
+</html>
